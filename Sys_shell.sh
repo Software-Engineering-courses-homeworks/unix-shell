@@ -1,0 +1,19 @@
+gcc Replace.c -o Replace -lm
+gcc DectoBin.c -o DectoBin -lm
+gcc DectoHex.c -o DectoHex -lm
+gcc exit.c -o exit -lm
+gcc Find.c -o Find -lm
+gcc Highbit.c -o Highbit -lm
+gcc History.c -o History -lm
+gcc Logic_shell.c -o Logic_shell -lm
+gcc Math_shell.c -o Math_shell -lm
+gcc String_shell.c -o String_shell -lm
+gcc Math.c -o Math -lm
+gcc String.c -o String -lm
+gcc Logic.c -o Logic -lm
+gcc Power.c -o Power -lm
+gcc PrintFile.c -o PrintFile -lm
+gcc Solve.c -o Solve -lm
+gcc Sqrt.c -o Sqrt -lm
+gcc Standard_shell.c -o Standard_shell -lm
+./Standard_shell
