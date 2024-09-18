@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
         //printf("String: %s\n", buff);
         if(strstr(buff,argv[2])!=NULL)
         {
-            printf("WIN\n");
+            printf("True\n");
             return 0;
         }
         rbytes = read(fd,buff,1024);
@@ -45,6 +45,6 @@ int main(int argc, char* argv[])
         }
     }
     //printf("String: %s\n", argv[2]);
-    printf("Try again\n");
+    printf("False\n");
     return 0;
 }
